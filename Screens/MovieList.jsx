@@ -2,7 +2,7 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {useQuery} from 'react-query';
 import {fetchMovies} from '../TMDb_API/api';
-import {FlatList, Button} from 'react-native';
+import {FlatList} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
 import {addMovie, removeMovie } from '../Redux/reducers';
 
