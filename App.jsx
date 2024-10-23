@@ -7,6 +7,7 @@ import {QueryClient, QueryClientProvider} from 'react-query';
 import store from './Redux/store';
 import MovieList from './Screens/MovieList';
 import Shortlisted from './Screens/Shortlisted';
+import Icon from 'react-native-ionicons'
 
 const queryClient = new QueryClient();
 
@@ -31,7 +32,7 @@ const App = () => {
           //     }
 
           //     // You can return any component that you like here!
-          //     return <Ionicons name={iconName} size={size} color={color} />;
+          //     return <Icon name={iconName} size={size} color={color} />;
           //   },
           //   tabBarActiveTintColor: 'tomato',
           //   tabBarInactiveTintColor: 'gray',
